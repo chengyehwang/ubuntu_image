@@ -1,8 +1,8 @@
 split:
-	split -b 50M my_ubuntu.tar.gz "part"
+	split -b 50M myubuntu.tar.gz "part"
 merge:
-	cat part* > my_ubuntu.tar.gz
+	cat part* > myubuntu.tar.gz
 sha:
-	sha256sum my_ubuntu.tar.gz
+	sha256sum myubuntu.tar.gz
 git:
 	git add part*
