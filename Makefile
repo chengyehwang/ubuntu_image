@@ -1,5 +1,5 @@
 split:
-	git rm part*
+	-git rm part*
 	split -b 50M myubuntu.tar.gz "part"
 	git add part*
 	git commit -m "update image"
